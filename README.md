@@ -1,3 +1,6 @@
+Hi, I going to use these practices to start to learn VIM and improve my knowledge about Ruby
+
+
 ![GitHub last commit](https://img.shields.io/github/last-commit/alexanyernas/Ejercicios-Practicos?color=%23229395&label=Last%20commit&logo=git&logoColor=%23fff&style=for-the-badge) ![GitHub contributors](https://img.shields.io/github/contributors/alexanyernas/Ejercicios-Practicos?color=%237acbcd&logo=github&logoColor=%23fff&style=for-the-badge)
 
 # Ejercicios Prácticos 💪 
