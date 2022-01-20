@@ -8,7 +8,9 @@ class Calculator
   end
 
   def division
-    (3 + 2).fdiv(2 * 5)
+    return 'Error, division by zero' if n2.zero?
+
+    n1.fdiv(n2)
   end
 
   def square
@@ -61,13 +63,9 @@ class Calculator
     end
     [x1,x2]
   end
+
+  def capicua?
+    n1 == reverse
+  end
 end
 
-calculator = Calculator.new
-puts 'Put the first number'
-calculator.n1 = gets.to_f
-puts 'Put the second number'
-calculator.n2 = gets.to_f
-return nil if calculator.n2.zero?
-
-puts "#{calculator.n1} divided #{calculator.n2} give a quotient #{calculator.quotient} and a remainder of #{calculator.remainder}"

@@ -2,7 +2,7 @@ require 'data_type/2'
 
 describe Calculator do
   it 'returns result math' do
-    expect(described_class.new.division).to eq(0.5)
+    expect(described_class.new(5, 10).division).to eq(0.5)
   end
   
   it 'return result square root' do

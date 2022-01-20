@@ -11,12 +11,3 @@ class Worker
   end
 end
 
-worker = Worker.new
-
-puts 'Whats is your salary per hour?'
-worker.salary_per_hour = gets.to_i
-
-puts 'How many hours you worked?'
-worker.hours_worked = gets.to_i
-
-puts "Your payment is: #{worker.payment}"
